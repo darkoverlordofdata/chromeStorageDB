@@ -1,0 +1,30 @@
+{
+  "name": "chromeStorageDB",
+  "main": "chromestoragedb",
+  "version": "0.0.1",
+  "homepage": "https://github.com/darkoverlordofdata/chromeStorageDB",
+  "authors": [
+    "darkoverlordofdata<darkoverlordofdata@gmail.com>"
+  ],
+  "description": "chrome.storage / asynch localStorage wrapper",
+  "keywords": [
+    "chrome.storage",
+    "localstorage",
+    "sessionstorage",
+    "sql",
+    "queries",
+    "websql"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "mocha": "~2.1.0",
+    "chai": "~1.10.0"
+  }
+}
