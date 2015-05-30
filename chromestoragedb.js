@@ -15,7 +15,7 @@
 */
 
 !(function (_global, undefined) {
-	function localStorageDB(db_name, engine, next) {
+	function chromeStorageDB(db_name, engine, next) {
 		if (next == null) {
 			next = engine;
 			engine = null;
@@ -727,10 +727,10 @@
 	// make amd compatible
 	if(typeof define === 'function' && define.amd) {
 		define(function() {
-			return localStorageDB;
+			return chromeStorageDB;
 		});
 	} else {
-		_global['localStorageDB'] = localStorageDB;
+		_global['chromeStorageDB'] = chromeStorageDB;
 	}
 
 }(window));
